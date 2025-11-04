@@ -70,6 +70,16 @@ body {
     width: 40%;
     padding-left: 100px;
 }
+
+@media screen and (max-width: 768px) {
+    .content .left {
+        width: 100%;
+        padding-left: 0;
+    }
+    .content .right {
+        width: 100%;
+    }
+}
 .content .right{
     width: 60%;
 }
@@ -169,15 +179,26 @@ body {
     top: -350px;
     transform: rotate(-40deg);
     z-index: -1;
+    opacity: 0;
     animation: topHat 4s 7s forwards ease;
 }
+
+@media screen and (max-width: 768px) {
+    .title .hat{
+        left: 100px;
+        top: -51px !important;
+    }
+}
+
 @keyframes topHat{
     20%, 30%{
         top: -30px;
         transform-origin: left;
         transform: rotate(-40deg);
+        opacity: 1;
     }
     35%, 100%{
+        opacity: 1;
         top: -30px;
         transform: rotate(0deg);
     }
