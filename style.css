@@ -221,6 +221,7 @@ body {
     opacity: 0;
     visibility: hidden;
     width: 0px;
+    white-space: nowrap;
     animation: dateOfBirth 5s 9s forwards;
 }
 @keyframes dateOfBirth{
