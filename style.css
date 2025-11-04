@@ -216,7 +216,7 @@ body {
 
 .title .hat {
     position: absolute;
-    right: 25px;
+    right: 25px !important;
     top: -350px;
     transform: rotate(-40deg);
     z-index: -1;
@@ -1013,5 +1013,5 @@ body {
 
 
 .joker{
-    color: #000;    
+    color: #000;
 }
