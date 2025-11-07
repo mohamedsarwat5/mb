@@ -226,8 +226,8 @@ body {
 
 @media screen and (max-width: 768px) {
     .title .hat {
-        left: 100px;
-        top: -51px !important;
+        left: 210px !important;
+        top: -59px !important;
     }
 }
 
