@@ -228,6 +228,7 @@ body {
     .title .hat {
         left: 210px !important;
         top: -59px !important;
+        transform: scale(.9)!important;
     }
 }
 
